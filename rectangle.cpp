@@ -13,6 +13,6 @@ void line_symmetry(Rectangle& rect, const Point& p1, const Point& p2) { return; 
 bool is_rectangle(const Quadrilateral& quad) { return false; }
 Rectangle to_rectangle(const Quadrilateral& quad) { return Rectangle{}; }
 double area(const Quadrilateral& quad) { return 0.0; }
-void sclae(const Quadrilateral& quad) { return; }
+void scale(const Quadrilateral& quad) { return; }
 void point_symmetry(Quadrilateral& quad, const Point& p) { return; }
 void line_symmetry(Quadrilateral& quad, const Point& p1, const Point& p2) { return; }
